@@ -1,0 +1,14 @@
+NAME
+    `App::sourcepan' - fetch source tarballs from CPAN
+
+SYNOPSIS
+     $ sourcepan App::sourcepan
+
+DESCRIPTION
+    This module provides a command sourcepan, which fetches the source
+    distribution for the module or modules named on the commandline, and
+    places each in the current working directory.
+
+AUTHOR
+    Paul Evans <leonerd@leonerd.org.uk>
+
