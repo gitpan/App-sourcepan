@@ -4,7 +4,7 @@
       "Paul Evans <leonerd@leonerd.org.uk>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4203",
    "license" : [
       "perl_5"
    ],
@@ -13,11 +13,17 @@
       "version" : "2"
    },
    "name" : "App-sourcepan",
-   "prereqs" : {},
+   "prereqs" : {
+      "runtime" : {
+         "requires" : {
+            "Getopt::Long" : "0"
+         }
+      }
+   },
    "provides" : {
       "App::sourcepan" : {
          "file" : "lib/App/sourcepan.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -26,5 +32,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

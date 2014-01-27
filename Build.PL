@@ -6,6 +6,7 @@ use Module::Build;
 my $build = Module::Build->new(
    module_name => 'App::sourcepan',
    requires => {
+      'Getopt::Long' => 0,
    },
    auto_configure_requires => 0, # Don't add M::B to configure_requires
    license => 'perl',

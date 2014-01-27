@@ -4,7 +4,7 @@ author:
   - 'Paul Evans <leonerd@leonerd.org.uk>'
 build_requires: {}
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Module::Build version 0.4203, CPAN::Meta::Converter version 2.133380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -13,7 +13,9 @@ name: App-sourcepan
 provides:
   App::sourcepan:
     file: lib/App/sourcepan.pm
-    version: 0.01
+    version: 0.02
+requires:
+  Getopt::Long: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
